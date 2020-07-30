@@ -49,11 +49,7 @@ function newElement() {
   for (i = 0; i < close.length; i++) {
     close[i].onclick = function() {
       var div = this.parentElement;
-      div.style.display = "none";
-      
-   function removeAll(){
-  var lst = document.getElementsByTagName("ul");
-    lst[0].innerHTML = "";    
+      div.style.display = "none";   
     }
   }
 }
