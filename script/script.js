@@ -50,6 +50,10 @@ function newElement() {
     close[i].onclick = function() {
       var div = this.parentElement;
       div.style.display = "none";
+      
+   function removeAll(){
+  var lst = document.getElementsByTagName("ul");
+    lst[0].innerHTML = "";    
     }
   }
 }
